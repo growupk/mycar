@@ -1,0 +1,24 @@
+{
+  "name": "evista-starter-theme-sass",
+  "version": "5.0.0",
+  "description": "Evista Starter Theme with Scss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.dev.e-vista.hu:2828/wp/evista-starter-theme-sass.git"
+  },
+  "keywords": [
+    "evista",
+    "theme",
+    "sass",
+    "scss"
+  ],
+  "author": "Zsolt Schutzbach",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-sass": "^3.0.0"
+  }
+}
