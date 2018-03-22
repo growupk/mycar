@@ -1,1 +1,13 @@
-html,body{margin:0;padding:0}
+.home .gallery-container {
+  border-radius: 0;
+  background-color: #3F364A; }
+  .home .gallery-container h1, .home .gallery-container p {
+    color: #98939E; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #261D30;
+  background-image: none; }
+
+/*# sourceMappingURL=main.css.map */

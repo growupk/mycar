@@ -13,6 +13,10 @@ function evista_starter_scripts() {
 		wp_register_script('jasny-bootstrap', '//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/js/jasny-bootstrap.min.js', false, '3.1.3', true);
 		wp_enqueue_script('jasny-bootstrap');
 
+    wp_deregister_script('baguette-box');
+		wp_register_script('baguette-box', '//cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js', false, '1.8.1', true);
+		wp_enqueue_script('baguette-box');
+
     wp_deregister_script('evista-starter');
 		wp_register_script('evista-starter', get_template_directory_uri().'/assets/js/app.js', false, '1.0.0', true);
 		wp_enqueue_script('evista-starter');
@@ -31,6 +35,12 @@ function evista_starter_styles(){
 		wp_register_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
 		wp_enqueue_style( 'font-awesome' );
 
+		wp_register_style( 'baguette-box', '//cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css' );
+		wp_enqueue_style( 'baguette-box' );
+
+    wp_register_style( 'gallery-grid', get_bloginfo('stylesheet_directory').'/assets/css/gallery-grid.css' );
+		wp_enqueue_style( 'gallery-grid' );
+		
     wp_register_style( 'main', get_bloginfo('stylesheet_directory').'/assets/css/main.css' );
   	wp_enqueue_style( 'main' );
   }
